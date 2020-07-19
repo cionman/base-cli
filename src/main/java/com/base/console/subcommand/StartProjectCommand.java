@@ -39,7 +39,7 @@ public class StartProjectCommand {
   }
 
   public void interactive() throws IOException {
-    AnsiConsole.systemUninstall();
+    AnsiConsole.systemInstall();
     ConsolePrompt prompt = new ConsolePrompt();
     PromptBuilder promptBuilder = prompt.getPromptBuilder();
 
