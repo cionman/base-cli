@@ -7,6 +7,7 @@ import de.codeshelf.consoleui.prompt.reader.ReaderIF;
 import java.io.IOException;
 import java.util.ResourceBundle;
 import org.fusesource.jansi.Ansi;
+import org.fusesource.jansi.Ansi.Color;
 
 /**
  * Abstract base class for all prompt implementations.
@@ -41,7 +42,7 @@ public abstract class AbstractPrompt {
    * @return String with ANSI-Color printable prompt.
    */
   protected String renderMessagePrompt(String message) {
-    return (ansi().fg(Ansi.Color.GREEN).a("? ").fgBright(Ansi.Color.WHITE).a(message)).fg(Ansi.Color.DEFAULT).toString();
+    return (ansi().fg(Ansi.Color.GREEN).a("? ").fgBright(Color.DEFAULT).a(message)).fg(Ansi.Color.DEFAULT).toString();
   }
 
   /**
