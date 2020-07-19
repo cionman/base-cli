@@ -1,0 +1,11 @@
+
+${AnsiColor.YELLOW}
+${AnsiColor.YELLOW}   ██████╗  █████╗ ███████╗███████╗     ██████╗██╗     ██╗
+${AnsiColor.YELLOW}   ██╔══██╗██╔══██╗██╔════╝██╔════╝    ██╔════╝██║     ██║
+${AnsiColor.YELLOW}   ██████╔╝███████║███████╗█████╗█████╗██║     ██║     ██║
+${AnsiColor.YELLOW}   ██╔══██╗██╔══██║╚════██║██╔══╝╚════╝██║     ██║     ██║
+${AnsiColor.YELLOW}   ██████╔╝██║  ██║███████║███████╗    ╚██████╗███████╗██║
+
+
+${AnsiColor.BRIGHT_BLUE}:: Base 🤓 :: Code generation tool v0.1 ::
+
