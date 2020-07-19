@@ -29,7 +29,6 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 @Getter
 @NoArgsConstructor
-@DynamicUpdate
 @Entity
 @Table(name = "${tablename}", indexes = {
 @Index(name = "IDX_BOARD__TITLE", columnList = "TITLE", unique = false),

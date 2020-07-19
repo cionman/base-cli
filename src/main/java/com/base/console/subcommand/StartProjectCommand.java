@@ -100,7 +100,7 @@ public class StartProjectCommand {
     List<PromptableElementIF> promptableElementList = promptBuilder.build();
 
     // only for test. reset the default reader to a test reader to automate the input
-    promptableElementList.get(0);
+    //promptableElementList.get(0);
 
     HashMap<String, ? extends PromtResultItemIF> result = prompt.prompt(promptableElementList);
 
